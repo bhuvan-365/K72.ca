@@ -37,6 +37,11 @@ const Agence = () => {
                 end: 'top -180%',
                 scrub: true,
                 pin: true,
+                pinSpacing: true,
+                pinReparent: true,
+                pinType: "transform",
+                anticipatePin: 1,
+                invalidateOmRefresh: true,
                 onUpdate: (elem) => {
                     // console.log(Math.floor(elem.progress * imageArray.length))
                     // const imageIndex = Math.floor(elem.progress * imageArray.length)
@@ -53,9 +58,9 @@ const Agence = () => {
         })
     })
     return (
-        <>
-            <div className='section1'>
-                <div ref={imageDivRef} className=' absolute h-[20vw] rounded-3xl w-[14vw] top-48 left-[30vw] overflow-hidden'>
+        <> <div className="parent">
+            <div id='page1' className='section1 py-1'>
+                <div ref={imageDivRef} className=' absolute h-[20vw] rounded-3xl w-[14vw] !top-30 left-[30vw] overflow-hidden'>
                     <img ref={imageRef} className='h-full w-full object-cover' src="../../public/agenceimg/img1.jpg" alt="img 1" />
                 </div>
                 <div className='relative font-[font2] text-white'>
@@ -70,6 +75,7 @@ const Agence = () => {
             <div className='section2 h-screen'>
 
             </div>
+        </div>
 
         </>
 

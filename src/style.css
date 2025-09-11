@@ -10,6 +10,7 @@
     src: url(../public/fonts/Lausanne-500.woff2)
 }
 
-body {
-    background: black;
+body{
+    overflow-x: hidden;
+    background-color: black;
 }

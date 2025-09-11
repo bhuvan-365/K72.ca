@@ -8,8 +8,9 @@ import Stairs from './components/common/Stairs.js'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-      <Stairs />
-      <App />
+      <Stairs>
+        <App />
+      </Stairs>
     </BrowserRouter>
   </StrictMode>,
 )
