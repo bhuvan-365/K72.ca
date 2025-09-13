@@ -13,20 +13,20 @@ const Agence = () => {
     const imageRef = useRef(null)
 
     const imageArray = [
-        '../../public/agenceimg/img1.jpg',
-        '../../public/agenceimg/img2.jpg',
-        '../../public/agenceimg/img3.jpg',
-        '../../public/agenceimg/img4.jpg',
-        '../../public/agenceimg/img5.jpg',
-        '../../public/agenceimg/img6.jpg',
-        '../../public/agenceimg/img7.jpg',
-        '../../public/agenceimg/img8.jpg',
-        '../../public/agenceimg/img9.jpg',
-        '../../public/agenceimg/img10.jpg',
-        '../../public/agenceimg/img11.jpg',
-        '../../public/agenceimg/img12.jpg',
-        '../../public/agenceimg/img13.jpg',
-        '../../public/agenceimg/img14.jpg'
+        '../../public/assets/agenceimg/img1.jpg',
+        '../../public/assets/agenceimg/img2.jpg',
+        '../../public/assets/agenceimg/img3.jpg',
+        '../../public/assets/agenceimg/img4.jpg',
+        '../../public/assets/agenceimg/img5.jpg',
+        '../../public/assets/agenceimg/img6.jpg',
+        '../../public/assets/agenceimg/img7.jpg',
+        '../../public/assets/agenceimg/img8.jpg',
+        '../../public/assets/agenceimg/img9.jpg',
+        '../../public/assets/agenceimg/img10.jpg',
+        '../../public/assets/agenceimg/img11.jpg',
+        '../../public/assets/agenceimg/img12.jpg',
+        '../../public/assets/agenceimg/img13.jpg',
+        '../../public/assets/agenceimg/img14.jpg'
 
     ]
 
@@ -65,7 +65,7 @@ const Agence = () => {
         <>
             <div className='section1 text-black'>
                 <div ref={imageDivRef} className='z-[-1] absolute h-[150px] lg:h-[20vw] rounded-3xl w-[120px] lg:w-[14vw] sm:top-20 lg:top-0 top-10 sm:left-[30vw] left-[10vw] overflow-hidden'>
-                    <img ref={imageRef} className=' h-full w-full object-cover' src="../../public/agenceimg/img1.jpg" alt="img 1" />
+                    <img ref={imageRef} className=' h-full w-full object-cover' src="../../public/assets/agenceimg/img1.jpg" alt="img 1" />
                 </div>
                 <div className='relative font-[font2] !z-40'>
                     <div className='mt-[55vh]'>
