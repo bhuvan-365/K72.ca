@@ -1,14 +1,11 @@
 import React from 'react'
-import Video from '../../../public/ad.mp4'
 
-const video = () => {
+const Video = () => {
     return (
-        <>
-            <div className='h-full w-full'>
-                <video className='h-full w-full object-cover' autoPlay loop muted src={Video}></video>
-            </div>
-        </>
+        <div className='h-full w-full'>
+            <video className='h-full w-full object-cover' autoPlay loop muted src="../../../public/ad.mp4"></video>
+        </div>
     )
 }
 
-export default video
+export default Video
