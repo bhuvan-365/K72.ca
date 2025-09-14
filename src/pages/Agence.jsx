@@ -13,20 +13,20 @@ const Agence = () => {
     const imageRef = useRef(null)
 
     const imageArray = [
-        '../../public/assets/agenceimg/img1.jpg',
-        '../../public/assets/agenceimg/img2.jpg',
-        '../../public/assets/agenceimg/img3.jpg',
-        '../../public/assets/agenceimg/img4.jpg',
-        '../../public/assets/agenceimg/img5.jpg',
-        '../../public/assets/agenceimg/img6.jpg',
-        '../../public/assets/agenceimg/img7.jpg',
-        '../../public/assets/agenceimg/img8.jpg',
-        '../../public/assets/agenceimg/img9.jpg',
-        '../../public/assets/agenceimg/img10.jpg',
-        '../../public/assets/agenceimg/img11.jpg',
-        '../../public/assets/agenceimg/img12.jpg',
-        '../../public/assets/agenceimg/img13.jpg',
-        '../../public/assets/agenceimg/img14.jpg'
+        '/assets/agenceimg/img1.jpg',
+        '/assets/agenceimg/img2.jpg',
+        '/assets/agenceimg/img3.jpg',
+        '/assets/agenceimg/img4.jpg',
+        '/assets/agenceimg/img5.jpg',
+        '/assets/agenceimg/img6.jpg',
+        '/assets/agenceimg/img7.jpg',
+        '/assets/agenceimg/img8.jpg',
+        '/assets/agenceimg/img9.jpg',
+        '/assets/agenceimg/img10.jpg',
+        '/assets/agenceimg/img11.jpg',
+        '/assets/agenceimg/img12.jpg',
+        '/assets/agenceimg/img13.jpg',
+        '/assets/agenceimg/img14.jpg'
 
     ]
 
@@ -65,7 +65,7 @@ const Agence = () => {
         <>
             <div className='section1 text-black'>
                 <div ref={imageDivRef} className='z-[-1] absolute h-[150px] lg:h-[20vw] rounded-3xl w-[120px] lg:w-[14vw] sm:top-20 lg:top-0 top-10 sm:left-[30vw] left-[10vw] overflow-hidden'>
-                    <img ref={imageRef} className=' h-full w-full object-cover' src="../../public/assets/agenceimg/img1.jpg" alt="img 1" />
+                    <img ref={imageRef} className=' h-full w-full object-cover' src="/assets/agenceimg/img1.jpg" alt="img 1" />
                 </div>
                 <div className='relative font-[font2] !z-40'>
                     <div className='mt-[55vh]'>
