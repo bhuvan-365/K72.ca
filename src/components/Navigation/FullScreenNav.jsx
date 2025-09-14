@@ -273,7 +273,7 @@ const FullScreenNav = () => {
                                 handelClick()
                                 setNavOpen(false)
                             }}
-                            className="link origin-top relative border-y-1 border-white"
+                            className="link origin-top relative  "
                         >
                             <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
                                 Blogs
